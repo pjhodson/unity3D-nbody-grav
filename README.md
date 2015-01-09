@@ -5,7 +5,7 @@ Basic N-Body Gravitational Simulation in Unity
 
 A few notes - 
 
-Any game object with the tag "gravBody" will be considered in calculations (in the Gravity script).
+Any game object with the tag "gravBody" will be considered in calculations (in the Gravity script, which needs to be applied to every object).
 
 If you want to have an object stationary, put it in the scene, add a rigidbody, and tag it with "gravBody" - adjust its mass to fit your needs.
 
